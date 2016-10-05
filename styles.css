@@ -1,6 +1,7 @@
 .beginpagina {
     border: 1px solid black;
     border-collapse: collapse;
+    margin-left:5px;
 }
 
 body{
@@ -16,6 +17,14 @@ img.logo {
     height: 50px;
     width: 100px;
     padding-left: 260px;
+    display: inline-block;
+}
+
+img.logo2 {
+    height: 50px;
+    width: 100px;
+    padding-left: 280px;
+    margin-bottom:10px;
     display: inline-block;
 }
 
@@ -50,6 +59,24 @@ nav ul li a:hover{
 
 a.active{
     color: #0066ff;
+}
+
+h1{
+    margin:10px;
+    color:white;
+    font-size:2.5em;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h1.voorwoord{
+    padding:26px;
+}
+
+.voorpagina{
+    font-family:sans-serif;
+    margin-left:5px;
+;
 }
 
 h2{
