@@ -8,9 +8,8 @@ body{
     margin:0;
 }
 
-img{
-	margin-left:165px;
-    
+img {
+    margin-left:165px;
 }
 
 img.logo {
@@ -895,12 +894,13 @@ h2.punten{
     text-align: center;
 }
 
-.dropdown40 {
+.dropdown39 {
     position: relative;
     display: inline-block;
+
 }
 
-.dropdown-content40 {
+.dropdown-content39 {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -908,11 +908,11 @@ h2.punten{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-.dropdown40:hover .dropdown-content40 {
+.dropdown39:hover .dropdown-content39 {
     display: block;
 }
 
-.desc40 {
+.desc39 {
     padding: 15px;
     text-align: center;
 }
@@ -954,4 +954,31 @@ h2.punten{
 }
 .dropdown42:hover .dropdown-content42 {
     display: block;
+}
+
+.desc42 {
+    padding: 15px;
+    text-align: center;
+}
+
+.dropdown43 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content43 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 5px 5px;
+}
+.dropdown43:hover .dropdown-content43 {
+    display: block;
+}
+
+.desc43 {
+    padding: 15px;
+    text-align: center;
 }
