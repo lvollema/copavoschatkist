@@ -248,7 +248,7 @@ h2.punten{
 
 .dropdown7 {
     position:relative;
-    z-index:10;
+    z-index:4;
     display: inline-block;
 }
 
@@ -271,7 +271,7 @@ h2.punten{
 
 .dropdown8 {
     position: relative;
-    z-index: 9;
+    z-index: 10;
     display: inline-block;
 }
 
@@ -294,7 +294,7 @@ h2.punten{
 
 .dropdown9 {
     position: relative;
-    z-index: 8;
+    z-index: 9;
     display: inline-block;
 
 }
@@ -318,7 +318,7 @@ h2.punten{
 
 .dropdown10 {
     position: relative;
-    z-index:10;
+    z-index:8;
     display: inline-block;
 }
 
@@ -341,7 +341,7 @@ h2.punten{
 
 .dropdown11 {
     position: relative;
-    z-index:9;
+    z-index:10;
     display: inline-block;
 }
 
@@ -364,7 +364,7 @@ h2.punten{
 
 .dropdown12 {
     position: relative;
-    z-index: 10;
+    z-index: 9;
     display: inline-block;
 }
 
@@ -387,7 +387,7 @@ h2.punten{
 
 .dropdown13 {
     position: relative;
-    z-index: 9;
+    z-index: 10;
     display: inline-block;
 }
 
@@ -404,6 +404,29 @@ h2.punten{
 }
 
 .desc13 {
+    padding: 15px;
+    text-align: center;
+}
+
+.dropdown14 {
+    position: relative;
+    z-index: 9;
+    display: inline-block;
+}
+
+.dropdown-content14 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown14:hover .dropdown-content14 {
+    display: block;
+}
+
+.desc14 {
     padding: 15px;
     text-align: center;
 }
